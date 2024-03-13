@@ -204,6 +204,23 @@ a {
     font-weight: bolder;
 }
 
+@media (max-width: 1024px){
+  .quote {
+    padding: 90px;
+  }
+  .quote .container {
+    margin: 0;
+    padding: 0;
+    width:  400px;
+    gap: 1rem;
+  }
+
+  .quote .container p {
+    font-size: 22px;
+    line-height: 1.5; 
+  }
+}
+
 /* CALL TO ACTION SECTION */
 
 .promo {
@@ -237,6 +254,19 @@ a {
     background-color: white;
     color: rgb(59,130,246);
     cursor: pointer;
+}
+
+@media (max-width: 1024px){
+    .banner {
+        margin: 0 20px;
+    }
+    .promo {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 15px 25px 20px 25px;
+        align-items: flex-start;
+    }
 }
 
 /* FOOTER */
